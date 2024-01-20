@@ -6,7 +6,7 @@ This is a backend that configures her hearing and speech. You can also choose yo
 
 Depending on the backend you choose, the hardware requirements will vary. On the contrary, you can choose the appropriate backend according to your hardware, as long as it meets the communication protocol.
 
-For details, see the **_"[Demo](/Demo)"_** and **_"[Documentation](/Documentation)"_** folders.
+For details, see the **_"[Documentation](/Documentation)"_** folders.
 
 ## Version [1.0.1]
 
@@ -22,6 +22,6 @@ For details, see the **_"[Demo](/Demo)"_** and **_"[Documentation](/Documentatio
 
 ## Usage
 
-1. Install according to the "**_Installation_**" method in **_"[Documentation](/Documentation)"_**, and then configure according to "**_Usage_**".
+1. Install according to the "**_Installation_**" method in **_"[Documentation](/Documentation/Documentation.md)"_**, and then configure according to "**_Usage_**".
 2. Test.
 3. Deployment.
