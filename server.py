@@ -159,11 +159,11 @@ def tts_service():
         text=text,
         output=tts_temp_file,
         am='fastspeech2_mix',
-        am_ckpt='./voice/fastspeech2_mix.onnx',
-        phones_dict='./voice/phone_id_map.txt',
-        speaker_dict='./voice/speaker_id_map.txt',
+        am_ckpt='./voice/Inner/fastspeech2_mix.onnx',
+        phones_dict='./voice/Inner/phone_id_map.txt',
+        speaker_dict='./voice/Inner/speaker_id_map.txt',
         voc='pwgan_aishell3',
-        voc_ckpt='./pwgan/pwgan_aishell3.onnx',
+        voc_ckpt='./pwgan/Inner/pwgan_aishell3.onnx',
         lang='zh',
         device=tts_device,
         # 转换成ONNX并使用CPU全部24个逻辑核心跑
@@ -205,9 +205,9 @@ asr_device = "cpu"
 # 预先加载模型
 # Preload model
 asr_model_type = 'conformer_wenetspeech'
-asr_cfg_path = './Models/paddlespeech/models/conformer_wenetspeech-zh-16k/1.0/asr1_conformer_wenetspeech_ckpt_0.1.1' \
+asr_cfg_path = './Models/Inner/paddlespeech/models/conformer_wenetspeech-zh-16k/1.0/asr1_conformer_wenetspeech_ckpt_0.1.1' \
                '.model.tar/model.yaml'
-asr_ckpt_path = './Models/paddlespeech/models/conformer_wenetspeech-zh-16k/1.0/asr1_conformer_wenetspeech_ckpt_0.1.1' \
+asr_ckpt_path = './Models/Inner/paddlespeech/models/conformer_wenetspeech-zh-16k/1.0/asr1_conformer_wenetspeech_ckpt_0.1.1' \
                 '.model.tar/exp/conformer/checkpoints/wenetspeech'
 
 
@@ -225,11 +225,11 @@ text_pun_executor = TextExecutor()
 
 # 预先加载模型
 # Preload model
-tpr_config = './Models/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar/ckpt' \
+tpr_config = './Models/Inner/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar/ckpt' \
              '/model_config.json'
-tpr_ckpt_path = './Models/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar' \
+tpr_ckpt_path = './Models/Inner/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar' \
                 '/ckpt/model_state.pdparams'
-tpr_punc_vocab = './Models/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar' \
+tpr_punc_vocab = './Models/Inner/paddlespeech/models/ernie_linear_p7_wudao-punc-zh/1.0/ernie_linear_p7_wudao-punc-zh.tar' \
                  '/punc_vocab.txt'
 
 

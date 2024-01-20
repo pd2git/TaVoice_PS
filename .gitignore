@@ -1,18 +1,19 @@
 .idea
 .vscode
+.gitignore
 
 git/
 temp/
 Test/
-Models/
+Models/Inner/
 module/__pycache__/
-voice/
 exp/
-OTFiles/jieba/
+OTFiles/Inner/
+voice/Inner/
+pwgan/Inner/
 
 APIKeys/ASR_APIKeys.txt
 APIKeys/TTS_APIKeys.txt
 test.py
 Test.bat
-Paddle模型转ONNX指令.txt
 Launch_Inner.bat
