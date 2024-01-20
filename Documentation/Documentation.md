@@ -1,6 +1,6 @@
 # About her listening voice
 
-Language：English, [简体中文](../Documentation_zh-CN.md)
+Language：English, [简体中文](/Documentation_zh-CN.md)
 
 This is a backend that configures her hearing and speech.
 You can also choose your favorite backend and configure her unique hearing and voice.
@@ -10,7 +10,7 @@ Depending on the backend you choose, the hardware requirements will vary. On the
 This project is based on the open source project of [Baidu Paddle Speech Platform](https://github.com/PaddlePaddle/PaddleSpeech). Please refer to the project description for its pre-installation conditions.
 However, this project also compiles the software environment used based on the hardware environment during development, for reference only.
 
-See the **_"[Documentation](../Documentation)"_** folder for details.
+See the **_"[Documentation](/Documentation)"_** folder for details.
 
 # Installation
 
@@ -26,7 +26,7 @@ python -m pip install paddlepaddle==2.4.2 -f https://www.paddlepaddle.org.cn/whl
 ```commandline
 python -m pip install -r requirements/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-4. Copy the [nltk_data](../OTFiles/nltk_data) folder to the root directory of the Python environment used.
+4. Copy the [nltk_data](/OTFiles/nltk_data) folder to the root directory of the Python environment used.
 5. Download or train your own models (including text-to-speech and speech recognition), see [PaddleSpeech Model List](https://github.com/PaddlePaddle/PaddleSpeech?tab=readme-ov-file#model-list) for details .
 6. Place the downloaded model at the location specified in server.py, or modify the code to the downloaded location.
 
@@ -35,7 +35,7 @@ python -m pip install -r requirements/requirements.txt -i https://pypi.tuna.tsin
 - [Python](https://www.python.org/) (>=3.8, recommended >=3.9)
 - [PaddlePaddle](https://www.paddlepaddle.org.cn/) (<=2.5.1, recommended=2.4.2)
 - [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech/) (Recommendation=[1.4.1](https://github.com/PaddlePaddle/PaddleSpeech/tree/r1.4.1))
-- For other dependencies, see "[requirements.txt](../requirements/requirements.txt)".
+- For other dependencies, see "[requirements.txt](/requirements/requirements.txt)".
 
 ## PaddlePaddle-GPU version installation
 
@@ -55,7 +55,7 @@ python -m pip install paddlepaddle-gpu==2.4.2.post117 -f https://www.paddlepaddl
 python server.py
 ```
 
-- Method 2: Run [Launch](../Launch.bat).
+- Method 2: Run [Launch](/Launch.bat).
 
 # Communication Protocol
 
@@ -178,4 +178,5 @@ The following table shows the function of each major folder or file in the packa
 
 | Date | Description |
 |------------|------------------------|
+| 2024-01-20 | The document (v1.0.1) is created to fix the file location.   |
 | 2024-01-19 | Document (v1.0) created, matching package version 1.0.1. |

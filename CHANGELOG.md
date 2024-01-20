@@ -1,6 +1,6 @@
 # Changelog
 
-Language：English, [简体中文](../CHANGELOG_zh-CN.md)
+Language：English, [简体中文](/CHANGELOG_zh-CN.md)
 
 This is a backend that configures her hearing and speech. 
 You can also choose your favorite backend and configure her unique hearing and voice.

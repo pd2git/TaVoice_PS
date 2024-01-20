@@ -1,6 +1,6 @@
 # 关于她的聆音
 
-语言：简体中文, [English](../Documentation.md)
+语言：简体中文, [English](/Documentation.md)
 
 这是一个配置她的听觉与话音的后端。你可以自行选择自己喜欢的后端，并为她配置独特的听觉与话音。
 
@@ -9,7 +9,7 @@
 本项目基于[百度飞桨语音平台](https://github.com/PaddlePaddle/PaddleSpeech) 的开源项目，其前置安装条件请参考项目的说明。
 不过，本项目也整理了基于开发时的硬件环境所使用的软件环境，仅供参考。
 
-具体见 **_"[Documentation](../Documentation)"_** 文件夹。
+具体见 **_"[Documentation](/Documentation)"_** 文件夹。
 
 # 安装
 
@@ -25,7 +25,7 @@ python -m pip install paddlepaddle==2.4.2 -f https://www.paddlepaddle.org.cn/whl
 ```commandline
 python -m pip install -r requirements/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-4. 拷贝[nltk_data](../OTFiles/nltk_data)文件夹至所使用的Python环境根目录下。
+4. 拷贝[nltk_data](/OTFiles/nltk_data)文件夹至所使用的Python环境根目录下。
 5. 下载或自己训练的模型（包括文本转语音和语音识别），详见[PaddleSpeech Model List](https://github.com/PaddlePaddle/PaddleSpeech?tab=readme-ov-file#model-list) 。
 6. 将下载的模型放置在server.py中指定的位置，或者修改代码为下载的位置。
 
@@ -34,7 +34,7 @@ python -m pip install -r requirements/requirements.txt -i https://pypi.tuna.tsin
 - [Python](https://www.python.org/) (>=3.8，建议>=3.9)
 - [PaddlePaddle](https://www.paddlepaddle.org.cn/) (<=2.5.1，建议=2.4.2)
 - [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech/) (建议=[1.4.1](https://github.com/PaddlePaddle/PaddleSpeech/tree/r1.4.1))
-- 其它依赖见"[requirements.txt](../requirements/requirements.txt)"。
+- 其它依赖见"[requirements.txt](/requirements/requirements.txt)"。
 
 ## PaddlePaddle-GPU版本安装
 
@@ -54,7 +54,7 @@ python -m pip install paddlepaddle-gpu==2.4.2.post117 -f https://www.paddlepaddl
 python server.py
 ```
 
-- 方式二：运行[Launch](../Launch.bat)。
+- 方式二：运行[Launch](/Launch.bat)。
 
 # 通讯协议
 
@@ -177,4 +177,5 @@ python server.py
 
 | 日期         | 描述                     |
 |------------|------------------------|
+| 2024-01-20 | 文档（v1.0.1）创建，修正文件定位。   |
 | 2024-01-19 | 文档（v1.0）创建，匹配包版本1.0.1。 |
